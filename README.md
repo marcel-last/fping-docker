@@ -7,7 +7,7 @@ docker build -t fping-docker:latest
 ```
 ## Running the container
 ```bash
-docker run --rm fping-docker <GOBUSTER_ARGS>
+docker run --rm fping-docker <FPING_ARGS>
 
 ## Example:
 docker run --rm fping-docker -A -d -a -q -g -a -i 1 -r 0 192.168.1.0/24
